@@ -271,12 +271,11 @@ Please ensure your app fits the WinUI 3 category and provide a brief description
 - `WDA` [Rememory | Clipboard Manager](https://apps.microsoft.com/detail/9nkgmcqgvpl1) <!-- logo: https://store-images.s-microsoft.com/image/apps.235.13657079754310886.740e3a36-e022-455d-ad14-0a8db5b8ae57.0089bafc-1f93-4f24-916d-11622405c69a?h=210 -->
 - `WDM` [RyTuneX](https://github.com/rayenghanmi/RyTuneX) <sup>`FOSS`</sup> <!-- logo: https://raw.githubusercontent.com/rayenghanmi/RyTuneX/refs/heads/main/Assets/StoreLogo.scale-150.png -->
 - `WD` [SuperPOS](https://apps.microsoft.com/detail/9nqgzwxw33xq) <!-- logo: https://store-images.s-microsoft.com/image/apps.39422.13773869899305893.f863726e-f676-4141-b806-9f860dacf9a8.b407d7cd-021f-4942-b58c-985dda3f1534?h=115 -->
-- `WDA` [TagEditor](https://github.com/danvlsv/TagEditor) <sup>`FOSS`</sup> <!-- logo: https://raw.githubusercontent.com/danvlsv/TagEditor/refs/heads/main/Assets/StoreLogo.png -->
+- `WDA` [TagEditor](https://github.com/danvlsv/TagEditor) <sup>`FOSS`</sup>
 - `WD` [Trowser](https://github.com/TheJoeFin/trowser) <sup>`FOSS`</sup> <!-- logo: https://raw.githubusercontent.com/TheJoeFin/trowser/refs/heads/master/Trowser/Assets/StoreLogo.scale-125.png -->
 - `WD` [WINUI3 Book Management System](https://github.com/Sandersshine/WINUI3_BOOKMS) <sup>`FOSS`</sup> <!-- logo: https://raw.githubusercontent.com/Sandersshine/WINUI3_BOOKMS/refs/heads/main/WINUI3_BOOKMS2/Assets/WindowIcon.ico -->
 - `WDM` [WinUI3-TaskList](https://github.com/tamil1809/WinUI3-TaskList) <sup>`FOSS`</sup> <!-- logo: https://raw.githubusercontent.com/tamil1809/WinUI3-TaskList/refs/heads/main/Task%20Lisk%20App/Assets/StoreLogo.png -->
 - `WD` [YASB GUI](https://github.com/amnweb/yasb-gui) <sup>`FOSS`</sup> <!-- logo: https://raw.githubusercontent.com/amnweb/yasb-gui/refs/heads/main/assets/StoreLogo.scale-150.png -->
-
 
 <sub>[📑 Table Of Contents](#-table-of-contents)</sub>
 
@@ -423,9 +422,9 @@ Please ensure your app fits the WinUI 3 category and provide a brief description
 - **YouTube**
 - `WDM` `WDA` [Lech YT-DLP](https://apps.microsoft.com/detail/9N28HRK3320G) <sup>`FOSS`</sup> <!-- logo: https://raw.githubusercontent.com/lechixy/LechYTDLP/refs/heads/main/LechYTDLP/Assets/StoreLogo.scale-400.png -->
 - `WDM` [MP3Cube - MP3 Music & Video Downloader 4K](https://apps.microsoft.com/detail/9n615w157bhm) <!-- logo: https://store-images.s-microsoft.com/image/apps.20615.14027826435832786.844e8b39-007d-474f-8f80-bd3b8234bd71.4326a264-40dc-4d31-aad4-8732bf7ad751?h=210 -->
-    - `WD` [TubeSync](https://github.com/manusoft/youtube-downloader-desktop) <sup>`FOSS`</sup> <!-- logo: https://github.com/manusoft/youtube-downloader-desktop/blob/master/TubeSync/Assets/StoreLogo.png?raw=true -->
-    - `WD` [Ultra Music & Video Downloader PRO](https://apps.microsoft.com/detail/9p9pwlkpr1k8) <!-- logo: https://store-images.s-microsoft.com/image/apps.18304.14138438430509029.c4c18cd8-b9bc-483c-9694-60dfaa9859b4.fc42373e-4e89-437e-87e9-cbd3b8944e96?h=210 -->
-    - `WDM` [WinTube](https://github.com/Areoxy/WinTube) <sup>`FOSS`</sup> <!-- logo: https://github.com/Areoxy/WinTube/raw/main/img/wintube-banner.png -->
+  - `WD` [TubeSync](https://github.com/manusoft/youtube-downloader-desktop) <sup>`FOSS`</sup> <!-- logo: https://github.com/manusoft/youtube-downloader-desktop/blob/master/TubeSync/Assets/StoreLogo.png?raw=true -->
+  - `WD` [Ultra Music & Video Downloader PRO](https://apps.microsoft.com/detail/9p9pwlkpr1k8) <!-- logo: https://store-images.s-microsoft.com/image/apps.18304.14138438430509029.c4c18cd8-b9bc-483c-9694-60dfaa9859b4.fc42373e-4e89-437e-87e9-cbd3b8944e96?h=210 -->
+  - `WDM` [WinTube](https://github.com/Areoxy/WinTube) <sup>`FOSS`</sup> <!-- logo: https://github.com/Areoxy/WinTube/raw/main/img/wintube-banner.png -->
   - `WDM` [Vido Video and MP3 Music Downloader](https://apps.microsoft.com/detail/9n9tzxcpz5kj) <!-- logo: https://store-images.s-microsoft.com/image/apps.8801.13525894633261773.83b593e2-3db7-4ef2-934c-4c7beb902807.6df2eab8-5e62-45a2-98a8-6274c8991929?h=210 -->
   - `WDM` [Vidder Video Downloader](https://apps.microsoft.com/detail/9njjx5ns63x2) <!-- logo: https://store-images.s-microsoft.com/image/apps.17316.13675189550175617.ab6282b5-9258-4e43-b089-e5efa22346b8.f432a70f-dd55-4dd9-99bb-dfd2291e819b?h=210 -->
     - `WD` [YT Video & MP3 Downloader and Converter](https://apps.microsoft.com/detail/9n15nknh976h) <!-- logo: https://store-images.s-microsoft.com/image/apps.54222.13907448068223776.67e8f94f-5e62-4d64-a7dd-67024e0b6269.4d9dc84b-b093-4379-818b-efa42090cb8b?h=115 -->
@@ -541,7 +540,7 @@ Please ensure your app fits the WinUI 3 category and provide a brief description
 - **Music Tools**
   - `WDM` [Audio Converter - ModernMedia Converter](https://apps.microsoft.com/detail/9nn2zc496lw5) <!-- logo: https://store-images.s-microsoft.com/image/apps.6767.13750785885147376.b8e4a1ae-c893-4d16-8e44-d8c450c558ab.4f8a1337-bd5a-4922-88ce-61b397231f8c?h=115 -->
   - `WDA` [BetterLyrics](https://apps.microsoft.com/detail/9p1wcd1p597r) <!-- logo: https://github.com/jayfunc/BetterLyrics/raw/dev/BetterLyrics.WinUI3/BetterLyrics.WinUI3/Assets/Logo.png -->
-- `WDA` [TagEditor](https://github.com/danvlsv/TagEditor) <sup>`FOSS`</sup> <!-- logo: https://raw.githubusercontent.com/danvlsv/TagEditor/refs/heads/main/Assets/StoreLogo.png -->
+- `WDA` [TagEditor](https://github.com/danvlsv/TagEditor) <sup>`FOSS`</sup>
   - `WDM` [HotLyric](https://www.microsoft.com/store/productId/9MXFFHVQVBV9) <!-- logo: https://store-images.s-microsoft.com/image/apps.16708.13891033903290794.23fb3354-c2f6-4cfe-a03e-8fc036b6cbb4.ddea90a1-9058-4e63-9250-c0940b0acf13?h=210 -->
   - `WDM` [LyricEase](https://install.appcenter.ms/users/brandonw3612/apps/lyricease/distribution_groups/public) <!-- logo: https://raw.githubusercontent.com/snivets/PodcastChapterEditor/refs/heads/main/Resources/BarCafeChair.ico -->
   - `WD` [PodcastChapterEditor](https://github.com/snivets/PodcastChapterEditor) <sup>`FOSS`</sup> <!-- logo: https://store-images.s-microsoft.com/image/apps.2807.14523657379323621.ffcc7932-6c34-455f-b661-6ffd194cc7d9.c713b5a4-f2fe-4895-b579-a3f404838ce6?h=115 -->
@@ -712,7 +711,7 @@ Please ensure your app fits the WinUI 3 category and provide a brief description
 - `WDM` [DayDayUp](https://github.com/Fangjin98/daydayup) `📆` <sup>`FOSS`</sup> <!-- logo: https://github.com/Fangjin98/daydayup/raw/master/images/logo.png -->
 - `WDM` [Daily ToDo Lists](https://apps.microsoft.com/detail/9pmw2fdm4dld) `💰` <!-- logo: https://store-images.s-microsoft.com/image/apps.59542.14285735681911887.fd9f56e2-1331-4987-bf51-c4cea91b5eed.fdab3d91-4bdd-4523-804b-41ad2770a326?h=115 -->
 - `WDM` [Taskie](https://apps.microsoft.com/detail/9n201wbcfj91) <!-- logo: https://store-images.s-microsoft.com/image/apps.28108.13966324980691824.ecf54eee-8b99-4704-aa7b-fd7551e30ecf.9771df94-def0-47b8-bac1-5bde6c6b480a?h=210 -->
-- `WD`  [Microsoft To Do](https://apps.microsoft.com/detail/9nblggh5r558) <!-- logo: https://store-images.s-microsoft.com/image/apps.19449.13510798887304077.23063538-cc5b-48a6-877b-3b83e2722bce.a2a2a9ec-fa0d-4f57-912d-c4f1d8fac407 -->
+- `WD` [Microsoft To Do](https://apps.microsoft.com/detail/9nblggh5r558) <!-- logo: https://store-images.s-microsoft.com/image/apps.19449.13510798887304077.23063538-cc5b-48a6-877b-3b83e2722bce.a2a2a9ec-fa0d-4f57-912d-c4f1d8fac407 -->
 - `WDM` [TaskList](https://github.com/GuildOfCalamity/TaskList) `📆` <sup>`FOSS`</sup> <!-- logo: https://github.com/GuildOfCalamity/TaskList/blob/main/Task%20List%20App/Assets/Add_Icon.png?raw=true -->
 - `WDA` [ToDoManager](https://github.com/navi705/ToDoManager-WinUI3) `📆` <sup>`FOSS`</sup> <!-- logo: https://github.com/navi705/ToDoManager-WinUI3/blob/master/Source/ToDoManager/ToDoManager/Resources/Assets/Square44x44Logo.scale-200.png?raw=true -->
 - `WDM` [WinUI3-TaskList](https://github.com/tamil1809/WinUI3-TaskList) <sup>`FOSS`</sup> <!-- logo: https://raw.githubusercontent.com/tamil1809/WinUI3-TaskList/refs/heads/main/Task%20Lisk%20App/Assets/StoreLogo.png -->
