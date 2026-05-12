@@ -868,6 +868,7 @@ Please ensure your app fits the WinUI 3 category and provide a brief description
 - `WDM` [PhotoFiles - Duplicate & Similar Photo Cleaner](https://apps.microsoft.com/store/detail/photofiles-lite-duplicate-photos-cleaner/9PN31DTGG9GM) <!-- logo: https://store-images.s-microsoft.com/image/apps.40866.13628798898042323.f63364f1-3cd2-448e-b907-f972b309fb14.9e903a57-3cdc-4a72-b863-6880020b39f8?h=115 -->
 - `WDM` [PowerDisk - PC Cleaner](https://apps.microsoft.com/store/detail/powerdisk-pc-cleaner/9PLPNC3D2N2T) <!-- logo: https://store-images.s-microsoft.com/image/apps.47795.14313637298438354.c0df153b-7223-4d32-83f7-ec91dff9e05a.57fe9ab1-9c01-482e-901b-bce9e9c30bf7?h=210 -->
 - `WDM` [TempCleaner - Delete Temp Files](https://apps.microsoft.com/detail/9n5bp86rtl46) `💰` <!-- logo: https://store-images.s-microsoft.com/image/apps.17367.13970933899596233.647e7101-16e3-4bb3-928f-6d73b9a842bb.76d14c31-145b-4198-8ad7-541593213d76?h=115 -->
+- `WDM` [FluentCleaner](https://github.com/builtbybel/FluentCleaner) <sup>`FOSS`</sup>
 
 #### 🔒 Security & Privacy
 
