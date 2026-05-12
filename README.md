@@ -263,13 +263,16 @@ Please ensure your app fits the WinUI 3 category and provide a brief description
 - `WDM` [Fontager](https://github.com/ysfemreAlbyrk/Fontager) <sup>`FOSS`</sup> <!-- logo: https://raw.githubusercontent.com/ysfemreAlbyrk/Fontager/refs/heads/main/Fontager.Viewer/Assets/Logo.png -->
 - `WDM` `WDA` [Horizon](https://apps.microsoft.com/detail/9pfs0vxcd5sr) <sup>`FOSS`</sup> <!-- logo: https://store-images.s-microsoft.com/image/apps.18140.14199299454065324.d78dd688-2d84-49bc-80ac-a8c7385fc5b5.5263caf3-e2ff-4c60-be7c-3313b7951896? -->
 - `WDM` [Jump List Manager](https://github.com/0x5bfa/JumpListManager) <sup>`FOSS`</sup> <!-- logo: https://raw.githubusercontent.com/0x5bfa/JumpListManager/refs/heads/master/JumpListManager.Samples.Shared/Assets/StoreLogo.scale-150.png -->
+- `WDM` [KaiROS AI](https://github.com/avikeid2007/KaiROS-AI) <sup>`FOSS`</sup> <!-- logo: https://raw.githubusercontent.com/avikeid2007/KaiROS-AI/refs/heads/main/docs/assets/logo.png -->
 - `WDM` `WDA` [Lech YT-DLP](https://apps.microsoft.com/detail/9N28HRK3320G) <sup>`FOSS`</sup> <!-- logo: https://raw.githubusercontent.com/lechixy/LechYTDLP/refs/heads/main/LechYTDLP/Assets/StoreLogo.scale-400.png -->
 - `WDM` [MagicPods](https://github.com/steam3d/MagicPods-Windows) <sup>`FOSS`</sup> <!-- logo: https://raw.githubusercontent.com/steam3d/MagicPods-Windows/refs/heads/master/Media/logo.png -->
 - `WDM` [Musium](https://github.com/paste1ess/Musium) <sup>`FOSS`</sup> <!-- logo: https://raw.githubusercontent.com/paste1ess/Musium/refs/heads/main/Assets/StoreLogo.scale-150.png -->
 - `WD` [OmniConsole](https://github.com/8bit2qubit/OmniConsole) <sup>`FOSS`</sup> <!-- logo: https://raw.githubusercontent.com/8bit2qubit/OmniConsole/refs/heads/main/OmniConsole/Assets/StoreLogo.png -->
+- `WDM` [Ping Legacy](https://github.com/avikeid2007/Ping-Legacy) <sup>`FOSS`</sup> <!-- logo: https://raw.githubusercontent.com/avikeid2007/Ping-Legacy/refs/heads/main/ScreenShot/logo.png -->
 - `WDM` [PowerToolbox](https://apps.microsoft.com/detail/9MV67V21H386) <!-- logo: https://store-images.s-microsoft.com/image/apps.16586.13799120564539197.64e975f3-b3fc-4148-a02e-2d8fc3893c09.c8fd777d-b961-4de5-a005-4c800849eaf7?h=115 -->
 - `WD` [READU.md](https://github.com/breezy89757/READU.md) <sup>`FOSS`</sup> <!-- logo: https://raw.githubusercontent.com/breezy89757/READU.md/refs/heads/master/src/Images/StoreLogo.png -->
 - `WDA` [Rememory | Clipboard Manager](https://apps.microsoft.com/detail/9nkgmcqgvpl1) <!-- logo: https://store-images.s-microsoft.com/image/apps.235.13657079754310886.740e3a36-e022-455d-ad14-0a8db5b8ae57.0089bafc-1f93-4f24-916d-11622405c69a?h=210 -->
+- `WDM` [RetroC IDE](https://github.com/avikeid2007/Retro-C-IDE) <sup>`FOSS`</sup> <!-- logo: https://raw.githubusercontent.com/avikeid2007/Retro-C-IDE/refs/heads/main/Assets/logo.png -->
 - `WDM` [RyTuneX](https://github.com/rayenghanmi/RyTuneX) <sup>`FOSS`</sup> <!-- logo: https://raw.githubusercontent.com/rayenghanmi/RyTuneX/refs/heads/main/Assets/StoreLogo.scale-150.png -->
 - `WD` [SuperPOS](https://apps.microsoft.com/detail/9nqgzwxw33xq) <!-- logo: https://store-images.s-microsoft.com/image/apps.39422.13773869899305893.f863726e-f676-4141-b806-9f860dacf9a8.b407d7cd-021f-4942-b58c-985dda3f1534?h=115 -->
 - `WDA` [TagEditor](https://github.com/danvlsv/TagEditor) <sup>`FOSS`</sup>
@@ -307,6 +310,7 @@ Please ensure your app fits the WinUI 3 category and provide a brief description
 - `WDM` [Eppie Mail](https://github.com/Eppie-io/Eppie-App) <sup>`FOSS`</sup> <!-- logo: https://github.com/Eppie-io/Eppie-App/blob/main/src/Eppie.App/Eppie.App.UWP/Assets/StoreLogo.scale-100.png?raw=true -->
 - `WD` [GPT Labs](https://github.com/mnikonov/gpt-labs) <!-- logo: https://github.com/mnikonov/gpt-labs/blob/main/src/Gpt.Labs/Assets/StoreLogo.scale-200.png?raw=true -->
 - `WDM` [Interviewer Copilot](https://apps.microsoft.com/detail/9pjvpmsb6gvh) <!-- logo: https://store-images.s-microsoft.com/image/apps.61140.14279222764099172.9af3e6be-888d-4ace-ae9e-919d5e83fc69.faefbd9f-f5ab-43ae-b2fb-bf80f2d8ec9d?h=210 -->
+- `WDM` [KaiROS AI](https://github.com/avikeid2007/KaiROS-AI) <sup>`FOSS`</sup> <!-- logo: https://raw.githubusercontent.com/avikeid2007/KaiROS-AI/refs/heads/main/docs/assets/logo.png -->
 - `WD` [Local AI Assistant](https://apps.microsoft.com/detail/9n9l7mz02t2n) <!-- logo: https://store-images.s-microsoft.com/image/apps.55085.13535097904506787.061529fa-12f1-4465-82a8-667737670565.1729e8ab-6c23-45df-b5e0-ad9bf0cd7eb5?h=115 -->
 - `WD` [Local AI Chatbot](https://apps.microsoft.com/detail/9nxj97jmfxp4) <!-- logo: https://store-images.s-microsoft.com/image/apps.63714.14428968053126421.75e13ee7-5a63-4d7a-bede-bf6360e6fc8e.6ee89364-bd6a-4201-8f8d-ab9cd31e6070?h=115 -->
 - `WD` [MaskedAIChat](https://apps.microsoft.com/detail/9pp344qwxrds) <!-- logo: https://store-images.s-microsoft.com/image/apps.54693.14337018479672075.60688365-dca5-4678-b5b2-6a8d32f26e04.bbaca8cd-3c34-4975-bd0c-9a9b950be813?h=115 -->
@@ -392,6 +396,7 @@ Please ensure your app fits the WinUI 3 category and provide a brief description
 - `WD` [QTWin11](https://github.com/witalihirsch/QTWin11) <sup>`FOSS`</sup>
 - `WDM` [ReCaptcha.Desktop](https://github.com/IcySnex/ReCaptcha.Desktop) <sup>`FOSS`</sup> <!-- logo: https://github.com/IcySnex/ReCaptcha.Desktop/blob/main/Samples/ReCaptcha.Desktop.Sample.UWP/Assets/PackageLogo.png?raw=true -->
 - `WDM` [Rectify11](https://github.com/Rectify11/Installer) <sup>`FOSS`</sup> <!-- logo: https://raw.githubusercontent.com/Rectify11/Installer/master/logo.png -->
+- `WDM` [RetroC IDE](https://github.com/avikeid2007/Retro-C-IDE) <sup>`FOSS`</sup> <!-- logo: https://raw.githubusercontent.com/avikeid2007/Retro-C-IDE/refs/heads/main/Assets/logo.png -->
 - `WDM` [Sun Valley ttk theme](https://github.com/rdbende/Sun-Valley-ttk-theme) <sup>`FOSS`</sup>
 - `WD` [TextDiff UWP](https://apps.microsoft.com/detail/9p8fpd4xs74k) <sup>`FOSS`</sup> <!-- logo: https://store-images.s-microsoft.com/image/apps.57264.14089047520295490.3b3e8f50-cb3f-44d0-a873-679ba6dc3186.014d9f52-e3e1-49b9-ba2d-a33f633f4d7c?h=115 -->
 - `WDA` [WinUI 3 Serial Port Communication](https://apps.microsoft.com/detail/9n97v1rzgt1p) <!-- logo: https://store-images.s-microsoft.com/image/apps.10051.13537481298673840.40b62e1e-f8b2-45e6-ba6d-01c14ae1c6eb.8733a4fb-6d0f-457f-a540-650634f0011b?h=115 -->
@@ -996,6 +1001,7 @@ Please ensure your app fits the WinUI 3 category and provide a brief description
 - `WD` [Phobos](https://apps.microsoft.com/detail/9n9mxc18zx4l) <!-- logo: https://store-images.s-microsoft.com/image/apps.61554.13529625265660117.38cbe333-e84a-4f03-aa98-34d08e97abb7.7881b4a2-850a-4b5f-8dea-5c5097af251a?h=115 -->
 - `WDM` [PhotoToys](https://apps.microsoft.com/store/detail/phototoys/9N3NH8S6N1DD) <!-- logo: https://store-images.s-microsoft.com/image/apps.61254.13999437343901023.6bf52177-066d-4023-8a6e-526f693c51b8.dbec059a-2a6e-4709-863f-608fb0916867?h=115 -->
 - `WDM` [Pillbox Pro](https://apps.microsoft.com/store/detail/pillbox-pro/9MZGZMJWFZSJ) <!-- logo: https://store-images.s-microsoft.com/image/apps.25938.13874741166981307.0a626273-963e-454b-9c83-603063722496.e10a7c1f-bf99-4314-9f4e-43c1972fa6f0?h=115 -->
+- `WDM` [Ping Legacy](https://github.com/avikeid2007/Ping-Legacy) <sup>`FOSS`</sup> <!-- logo: https://raw.githubusercontent.com/avikeid2007/Ping-Legacy/refs/heads/main/ScreenShot/logo.png -->
 - `WD` [PocketCFD](https://apps.microsoft.com/store/detail/pocketcfd/9P9QZD92NR3F) <!-- logo: https://store-images.s-microsoft.com/image/apps.9555.14138051355027780.718c355e-489c-4b7e-a12d-8b9e208104c8.f522d058-3d12-4ac6-9641-5cbc869e5173?h=115 -->
 - `WDA` [PotatoVN](https://apps.microsoft.com/detail/9P9CBKD5HR3W) <!-- logo: https://store-images.s-microsoft.com/image/apps.38260.14141282336090894.fb83889d-8fec-49a0-9513-d2f1bdcb45bd.617cfb9a-2c7f-44c1-a4c4-4436c8b8390c?h=115 -->
 - `WDM` [PowerToolbox](https://apps.microsoft.com/detail/9MV67V21H386) <!-- logo: https://store-images.s-microsoft.com/image/apps.16586.13799120564539197.64e975f3-b3fc-4148-a02e-2d8fc3893c09.c8fd777d-b961-4de5-a005-4c800849eaf7?h=115 -->
