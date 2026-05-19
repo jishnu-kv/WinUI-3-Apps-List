@@ -567,6 +567,7 @@ Please ensure your app fits the WinUI 3 category and provide a brief description
   - `WDM` [PDF Splitter / Merger](https://apps.microsoft.com/detail/9n2kgnh5bz8f) <!-- logo: https://store-images.s-microsoft.com/image/apps.26802.13954823082458230.831ee4fb-2935-4423-b080-b9ef5c1b6973.a20993da-d6a8-4fd1-bdd5-c68be8951584?h=210 -->
   - `WDM` [PDF.Office Converter](https://apps.microsoft.com/detail/9nw5c7830tnw) <!-- logo: https://store-images.s-microsoft.com/image/apps.39977.14455858976679328.20889292-a4ec-4d11-9d0e-2b1cc72f5a50.a084b4a4-9398-46b8-9a34-f0e7b0b5892f?h=210 -->
   - `WD` [PDF Jack](https://apps.microsoft.com/store/detail/pdf-jack/9NBLGGH1P3P6) <!-- logo: https://store-images.s-microsoft.com/image/apps.5372.13510798885975031.ed6b6eff-2213-4e9c-ba1b-b5ea17f3ae74.690db505-92bb-4cdb-9a90-dbbdb2287c99?h=210 -->
+  - `WDM` [Easy PDF](https://apps.microsoft.com/detail/9p02klsbznmn) <!-- logo: https://store-images.s-microsoft.com/image/apps.50001.14469075154290609.f805e68b-1e10-4563-a435-17faeae2e63b.3c32a123-21b8-4cf4-8d2e-d3d1f08c74fa?h=307 -->
 
 #### 🏜️ Photo Viewer
 
