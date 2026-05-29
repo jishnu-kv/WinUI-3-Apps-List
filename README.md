@@ -538,6 +538,7 @@ Please ensure your app fits the WinUI 3 category and provide a brief description
 - `WDM` [Stylophone](https://github.com/Difegue/Stylophone) <sup>`FOSS`</sup> <!-- logo: https://github.com/Difegue/Stylophone/raw/dev/Sources/Stylophone/Assets/Square44x44Logo.targetsize-256.png -->
 - `WDM` [Strix Music](https://github.com/Arlodotexe/strix-music) <sup>`FOSS`</sup> <!-- logo: https://raw.githubusercontent.com/Arlodotexe/strix-music/refs/heads/main/src/Cores/Storage/src/logo.png -->
 - `WDM` [Video Media Player - All Formats](https://apps.microsoft.com/detail/9n5j0j3fcg8t) <!-- logo: https://store-images.s-microsoft.com/image/apps.57939.14037510321365950.6e918084-6233-4588-bae8-4f0184ef0b6a.73a54e3d-9e06-452a-9482-f00497bd2492?h=210 -->
+- `WDM` [Untamed Music Player](https://github.com/LanZhan-Harmony/WindowsMusicPlayer-TheUntamedMusicPlayer) <sup>`FOSS`</sup>
 - **Music Tools**
   - `WDM` [Audio Converter - ModernMedia Converter](https://apps.microsoft.com/detail/9nn2zc496lw5) <!-- logo: https://store-images.s-microsoft.com/image/apps.6767.13750785885147376.b8e4a1ae-c893-4d16-8e44-d8c450c558ab.4f8a1337-bd5a-4922-88ce-61b397231f8c?h=115 -->
   - `WDA` [BetterLyrics](https://apps.microsoft.com/detail/9p1wcd1p597r) <!-- logo: https://github.com/jayfunc/BetterLyrics/raw/dev/BetterLyrics.WinUI3/BetterLyrics.WinUI3/Assets/Logo.png -->
