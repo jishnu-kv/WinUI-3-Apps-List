@@ -608,7 +608,8 @@ Please ensure your app fits the WinUI 3 category and provide a brief description
 #### 📺 Tracking Services
 
 - `WDM` [AniMoe](https://github.com/CosmicPredator/AniMoe) <sup>`FOSS`</sup> <!-- logo: https://camo.githubusercontent.com/c28a3c4c946c46465dec8d86b26db1b9a2f0a48fb86e4797cfa532cc51ec05fd/68747470733a2f2f692e696d6775722e636f6d2f58595a67586d502e706e67 -->
-- `WDM` [Bili.Uwp](https://github.com/Richasy/Bili.Uwp) <sup>`FOSS`</sup>
+- `WDM` [Bili.Copilot](https://github.com/Richasy/Bili.Copilot) <sup>`FOSS`</sup> <!-- logo: https://store-images.s-microsoft.com/image/apps.63411.13859964525405430.d836adf1-2b53-4edc-a94e-fa4efa403c37.15baf9d6-00ce-49a4-8ce1-503830b04406?h=307 -->
+- `WDM` [BiliLite](https://github.com/ywmoyue/biliuwp-lite) <sup>`FOSS`</sup>
 - `WDM` [Movier](https://apps.microsoft.com/detail/9ncf5gmw8q1q) <!-- logo: https://store-images.s-microsoft.com/image/apps.10491.13564961981097979.91d8b996-21fd-426c-b795-9b9385025832.9696950c-fcc1-4cf2-a8a0-8a2daabaf254?h=115 -->
 - `WDM` [Totoro](https://github.com/insomniachi/Totoro) <sup>`FOSS`</sup> <!-- logo: https://github.com/insomniachi/Totoro/blob/main/Totoro.WinUI/Assets/StoreLogo.scale-150.png?raw=true -->
 
