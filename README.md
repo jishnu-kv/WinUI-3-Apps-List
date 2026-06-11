@@ -393,6 +393,7 @@ Please ensure your app fits the WinUI 3 category and provide a brief description
 - `WDM` [WUC Gallery App](https://apps.microsoft.com/detail/9mswnv3wmqc1) <!-- logo: https://store-images.s-microsoft.com/image/apps.56367.13819991677600828.da563013-69a0-47bd-b016-4dabb2577dde.c8356ac2-94ed-4a02-82d2-450bad990249?h=115 -->
 - `WD` [XAML Lab](https://github.com/WindowsNT/XAML-Lab) <!-- logo: https://raw.githubusercontent.com/WindowsNT/XAML-Lab/refs/heads/master/Assets/StoreLogo.png -->
 - `WD` [XAML Path Icons](https://apps.microsoft.com/detail/9mtbnqsz9nz9) <!-- logo: https://store-images.s-microsoft.com/image/apps.30327.13811465872225312.e32f0ffa-7415-4f6e-8afb-b07a9820d839.5534afad-7d3c-4c50-8d45-256ca96378f5?h=115 -->
+- `WDM` [SwellSSH](https://github.com/yaog6700-bit/Swell-SSH) <sup>`FOSS`</sup>
 
 - <sub>[📑 Table Of Contents](#-table-of-contents)</sub>
 
