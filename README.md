@@ -250,6 +250,7 @@ Please ensure your app fits the WinUI 3 category and provide a brief description
 ### 🆕 Newly Added Apps!
 
 - `WD` [App Actions Testing Playground](https://apps.microsoft.com/detail/9plswv2gr8b4) <!-- logo: https://store-images.s-microsoft.com/image/apps.34369.14307107121131999.5de3fc33-830c-4b7a-bcd0-406d2460e599.ffc9f200-5a2d-46dc-baa9-9dc172a502cf?h=115 -->
+- `WDM` [authi.me: 2fa totp with sync](https://apps.microsoft.com/detail/9mvc7rhmz304) <sup>`FOSS`</sup> <!-- logo: https://github.com/cherepets/authi.me/blob/main/Authi.App/Authi.App.WinUI/Assets/Square44x44Logo.altform-lightunplated_targetsize-256.png?raw=true -->
 - `WD` [DiaryFlow](https://apps.microsoft.com/detail/9p76ns4k0hgf) <!-- logo: https://store-images.s-microsoft.com/image/apps.10498.14610247991455642.1e88b184-58d3-4069-a7d4-da96b03ac2da.289bbf23-87d9-41d5-83e3-99f79bdaea2d?h=115 -->
 - `WDM` [FluentDL](https://apps.microsoft.com/detail/9mx44km97x7x) <!-- logo: https://store-images.s-microsoft.com/image/apps.13526.13831473991175537.84aa17b1-7beb-411b-9abe-649a4e706a0a.8a2426b6-f953-4ac0-8a35-5d446d8b576b?h=115 -->
 - `WDM` [FluentTasks - Task Manager & To-Do List](https://apps.microsoft.com/detail/9pjxbn8816ff) <!-- logo: https://store-images.s-microsoft.com/image/apps.58461.14273854766584516.ef741382-bd7b-4544-b1a0-5e0b044d78cb.898b9539-d8ab-43cd-b0ba-971b9a92ca5b?h=115 -->
@@ -881,6 +882,7 @@ Please ensure your app fits the WinUI 3 category and provide a brief description
 #### 🔒 Security & Privacy
 
 - `WDM` [2FAGuard](https://github.com/timokoessler/2FAGuard) <sup>`FOSS`</sup> <!-- logo: https://store-images.s-microsoft.com/image/apps.60268.14619611250774202.be2f0458-6976-49ff-bc76-02f5870a17d2.b9ce3eae-a3c1-48ca-9d8f-5ba299b764d2?h=115 -->
+- `WDM` [authi.me: 2fa totp with sync](https://apps.microsoft.com/detail/9mvc7rhmz304) <sup>`FOSS`</sup> <!-- logo: https://github.com/cherepets/authi.me/blob/main/Authi.App/Authi.App.WinUI/Assets/Square44x44Logo.altform-lightunplated_targetsize-256.png?raw=true -->
 - `WDM` [Cyber Vault](https://apps.microsoft.com/detail/9n35prv6lwmn) <!-- logo: https://store-images.s-microsoft.com/image/apps.57781.13938733498897005.1e9f992f-61cd-4bbf-b532-b2798768bd92.1268708d-accb-4840-b55a-3776db14b31c?h=115 -->
 - `WDM` [EasePass](https://github.com/FrozenAssassine/EasePass) <sup>`FOSS`</sup> <!-- logo: https://github.com/FrozenAssassine/EasePass/raw/master/EasePass/Assets/AppIcon/Icon.png -->
 - `WDM` [Eppie Mail](https://github.com/Eppie-io/Eppie-App) <sup>`FOSS`</sup> <!-- logo: https://github.com/Eppie-io/Eppie-App/blob/main/src/Eppie.App/Eppie.App.UWP/Assets/StoreLogo.scale-100.png?raw=true -->
