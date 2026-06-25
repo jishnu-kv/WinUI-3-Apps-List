@@ -249,6 +249,7 @@ Please ensure your app fits the WinUI 3 category and provide a brief description
 
 ### 🆕 Newly Added Apps!
 
+- `WDM` [Yukari - Comic Manager/Reader](https://github.com/Yukari-App/Yukari) <sup>`FOSS`</sup> <!-- logo: https://raw.githubusercontent.com/Yukari-App/Yukari/refs/heads/master/Yukari.png -->
 - `WD` [App Actions Testing Playground](https://apps.microsoft.com/detail/9plswv2gr8b4) <!-- logo: https://store-images.s-microsoft.com/image/apps.34369.14307107121131999.5de3fc33-830c-4b7a-bcd0-406d2460e599.ffc9f200-5a2d-46dc-baa9-9dc172a502cf?h=115 -->
 - `WD` [DiaryFlow](https://apps.microsoft.com/detail/9p76ns4k0hgf) <!-- logo: https://store-images.s-microsoft.com/image/apps.10498.14610247991455642.1e88b184-58d3-4069-a7d4-da96b03ac2da.289bbf23-87d9-41d5-83e3-99f79bdaea2d?h=115 -->
 - `WDM` [FluentDL](https://apps.microsoft.com/detail/9mx44km97x7x) <!-- logo: https://store-images.s-microsoft.com/image/apps.13526.13831473991175537.84aa17b1-7beb-411b-9abe-649a4e706a0a.8a2426b6-f953-4ac0-8a35-5d446d8b576b?h=115 -->
@@ -319,6 +320,7 @@ Please ensure your app fits the WinUI 3 category and provide a brief description
 - `WD` [Audibly — Audiobook Player](https://apps.microsoft.com/detail/9p6r1m1gg9jr) <!-- logo: https://store-images.s-microsoft.com/image/apps.24373.14614901670039884.b1c06b3a-c2e2-49d9-908a-98a21995bce6.e5d96850-0d67-4a9e-9e27-a85cbdda77fd?h=115 -->
 - `WD` [ePub+](https://apps.microsoft.com/detail/9pfspmjkkqht) <!-- logo: https://store-images.s-microsoft.com/image/apps.43576.14194276982729244.85b11459-9a59-4aa9-a86c-52f5c9db858b.43cf6b14-67dd-446c-be2d-d026f150074e?h=210 -->
 - `WDM` [Rulia - Manga Reader](https://apps.microsoft.com/detail/9mvvlrzwrxx8) <!-- logo: https://store-images.s-microsoft.com/image/apps.22835.13851387518039871.75f617f2-c9df-4769-9e03-ff7a99629913.932e2526-569b-470b-9c4a-11416ebdfce0?h=115 -->
+- `WDM` [Yukari - Comic Manager/Reader](https://github.com/Yukari-App/Yukari) <sup>`FOSS`</sup> <!-- logo: https://raw.githubusercontent.com/Yukari-App/Yukari/refs/heads/master/Yukari.png -->
 
 <sub>[📑 Table Of Contents](#-table-of-contents)</sub>
 
