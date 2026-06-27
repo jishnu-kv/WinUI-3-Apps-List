@@ -268,6 +268,7 @@ Please ensure your app fits the WinUI 3 category and provide a brief description
 - `WDA` [Watt Toolkit](https://apps.microsoft.com/detail/9mtcfhs560ng) <!-- logo: https://store-images.s-microsoft.com/image/apps.10739.13810726275500961.53450795-b99b-437a-849b-6599bed03235.d99a864d-0f82-48dc-a0cb-c5406aa480d9?h=210 -->
 - `WDA` [WinSweep-](https://apps.microsoft.com/detail/9n9jz16ngz0d) <!-- logo: https://store-images.s-microsoft.com/image/apps.27542.13535909359664055.054f91c4-1a3f-40bf-bff2-2b747dec847a.a9da7288-c14a-4bcd-afa5-6afc6c2e27cd?h=210 -->
 - `WD` [XAML Path Icons](https://apps.microsoft.com/detail/9mtbnqsz9nz9) <!-- logo: https://store-images.s-microsoft.com/image/apps.30327.13811465872225312.e32f0ffa-7415-4f6e-8afb-b07a9820d839.5534afad-7d3c-4c50-8d45-256ca96378f5?h=115 -->
+- `WDM` [WDCable](https://github.com/jingcjie/WDCableWUI) <sup>`FOSS`</sup> <!-- logo: https://raw.githubusercontent.com/jingcjie/WDCableWUI/main/figures/icon.png -->
 
 <sub>[📑 Table Of Contents](#-table-of-contents)</sub>
 
@@ -1124,3 +1125,4 @@ Please ensure your app fits the WinUI 3 category and provide a brief description
 - `WD` [Recipe Collection](https://apps.microsoft.com/detail/9ntdrjcq2p53) <!-- logo: https://store-images.s-microsoft.com/image/apps.30854.14420234046939322.ec3a7f71-556a-4861-94ab-58b846ba110a.a30d126c-aa60-40c5-9da8-52ac142d08e7?h=210 -->
 - `WDM` [Smartphone Museum](https://apps.microsoft.com/detail/9nbfn3kxm0xb) <!-- logo: https://store-images.s-microsoft.com/image/apps.40210.13518663416018429.2efe8551-d3aa-4b78-b72c-f71970229024.7ba1835b-4d7d-4c75-b073-aa864a293aaa?h=210 -->
 - `WDM` [xaowo win](https://apps.microsoft.com/detail/9n16m161glxr) <!-- logo: https://store-images.s-microsoft.com/image/apps.20083.13907136126387232.2f5e5651-61f3-40d2-90c4-8621dccc4d26.68ae4ffc-a545-4c79-9258-bece3db99187?h=115 -->
+- `WDM` [WDCable](https://github.com/jingcjie/WDCableWUI) <sup>`FOSS`</sup> <!-- logo: https://raw.githubusercontent.com/jingcjie/WDCableWUI/main/figures/icon.png -->
