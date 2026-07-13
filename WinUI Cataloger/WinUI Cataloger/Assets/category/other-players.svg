@@ -1,0 +1,16 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<title>Play Button</title>
+
+<defs>
+  <linearGradient id="play_bg" x1="20" y1="20" x2="4" y2="4" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#2764E7"/>
+    <stop offset="1" stop-color="#36DFF1"/>
+  </linearGradient>
+</defs>
+
+<!-- Rounded rectangle background -->
+<rect x="3" y="5" width="18" height="14" rx="4" fill="url(#play_bg)"/>
+
+<!-- Play symbol -->
+<path d="M10 9.5L15 12L10 14.5V9.5Z" fill="white"/>
+</svg>

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "WinUI Cataloger (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "WinUI Cataloger (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

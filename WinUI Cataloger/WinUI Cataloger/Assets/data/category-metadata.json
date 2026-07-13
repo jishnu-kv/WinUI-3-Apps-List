@@ -1,0 +1,208 @@
+{
+  "categories": {
+    "🆕 Newly Added Apps!": {
+      "name": "Newly Added Apps",
+      "icon": "newly-added.svg"
+    },
+    "🛍️ Application Store": {
+      "name": "Application Store",
+      "icon": "application-store.svg"
+    },
+    "🤖 Artificial Intelligence (AI)": {
+      "name": "Artificial Intelligence (AI)",
+      "icon": "ai.svg"
+    },
+    "📕 Books & Reference": {
+      "name": "Books & Reference",
+      "icon": "books-reference.svg"
+    },
+    "🌐 Browser": {
+      "name": "Browser",
+      "icon": "browser.svg"
+    },
+    "💼 Business": {
+      "name": "Business",
+      "icon": "business.svg"
+    },
+    "🧑‍💻 Developer Tools": {
+      "name": "Developer Tools",
+      "icon": "developer-tools.svg"
+    },
+    "GitHub Client": {
+      "name": "GitHub Client",
+      "icon": "github-client.svg"
+    },
+    "Other": {
+      "name": "Other",
+      "icon": "other.svg"
+    },
+    "🎓 Education": {
+      "name": "Education",
+      "icon": "education.svg"
+    },
+    "📱 Entertainment": {
+      "name": "Entertainment",
+      "icon": "entertainment.svg"
+    },
+    "⬇️ Download Managers": {
+      "name": "Download Managers",
+      "icon": "download.svg"
+    },
+    "📁 File Manager": {
+      "name": "File Manager",
+      "icon": "file-manager.svg"
+    },
+    "🎮 Games": {
+      "name": "Games",
+      "icon": "games.svg"
+    },
+    "Game Tools": {
+      "name": "Game Tools",
+      "icon": "games-tools.svg"
+    },
+    "🙎‍♂️ Lifestyle": {
+      "name": "Lifestyle",
+      "icon": "lifestyle.svg"
+    },
+    "🎬 Media": {
+      "name": "Media",
+      "icon": "media.svg"
+    },
+    "🎧 Music Players": {
+      "name": "Music Players",
+      "icon": "music-players.svg"
+    },
+    "Spotify Client": {
+      "name": "Spotify Client",
+      "icon": "spotify-client.svg"
+    },
+    "📄 PDF Viewer": {
+      "name": "PDF Viewer",
+      "icon": "pdf-viewer.svg"
+    },
+    "🏜️ Photo Viewer": {
+      "name": "Photo Viewer",
+      "icon": "photo-viewer.svg"
+    },
+    "🎙️ Podcast": {
+      "name": "Podcast",
+      "icon": "podcast.svg"
+    },
+    "📺 Streaming Services": {
+      "name": "Streaming Services",
+      "icon": "streaming-services.svg"
+    },
+    "📺 Tracking Services": {
+      "name": "Tracking Services",
+      "icon": "tracking-services.svg"
+    },
+    "▶️ Video Players": {
+      "name": "Video Players",
+      "icon": "video-players.svg"
+    },
+    "▶️ Other Players": {
+      "name": "Other Players",
+      "icon": "other-players.svg"
+    },
+    "💠 Multimedia & Design": {
+      "name": "Multimedia & Design",
+      "icon": "multimedia-design.svg"
+    },
+    "📒 Notes / To-do / Wish-lists": {
+      "name": "Notes / To-do / Wish-lists",
+      "icon": "notes-lists.svg"
+    },
+    "⬜ Draw Board": {
+      "name": "Draw Board",
+      "icon": "draw-board.svg"
+    },
+    "📝 Notes": {
+      "name": "Notes",
+      "icon": "notes.svg"
+    },
+    "🔔 Reminders": {
+      "name": "Reminders",
+      "icon": "reminders.svg"
+    },
+    "🔔 To-Do / Task": {
+      "name": "To-Do / Task",
+      "icon": "to-do-task.svg"
+    },
+    "🎨 Personalization": {
+      "name": "Personalization",
+      "icon": "personalization.svg"
+    },
+    "➗ Calculators": {
+      "name": "Calculators",
+      "icon": "calculators.svg"
+    },
+    "📊 Device Info / Monitors": {
+      "name": "Device Info / Monitors",
+      "icon": "device-info-monitors.svg"
+    },
+    "📧 Email Clients": {
+      "name": "Email Clients",
+      "icon": "email-clients.svg"
+    },
+    "🎙️ Finance": {
+      "name": "Finance",
+      "icon": "finance.svg"
+    },
+    "📰 News": {
+      "name": "News",
+      "icon": "news.svg"
+    },
+    "🌦️ Weather": {
+      "name": "Weather",
+      "icon": "weather.svg"
+    },
+    "📅 Calendar": {
+      "name": "Calendar",
+      "icon": "calendar.svg"
+    },
+    "🧹 Optimizer / Cleaners": {
+      "name": "Optimizer / Cleaners",
+      "icon": "optimizer-cleaners.svg"
+    },
+    "🔒 Security & Privacy": {
+      "name": "Security & Privacy",
+      "icon": "security-privacy.svg"
+    },
+    "🈵 Translators": {
+      "name": "Translators",
+      "icon": "translators.svg"
+    },
+    "🈵 Transcribe": {
+      "name": "Transcribe",
+      "icon": "transcribe.svg"
+    },
+    "📈 Productivity": {
+      "name": "Productivity",
+      "icon": "productivity.svg"
+    },
+    "💻 System": {
+      "name": "System",
+      "icon": "system.svg"
+    },
+    "🔧 Utilities": {
+      "name": "Utilities",
+      "icon": "utilities.svg"
+    },
+    "🪟 Windows Apps": {
+      "name": "Windows Apps",
+      "icon": "windows-apps.svg"
+    },
+    "👨‍💻 Social Media": {
+      "name": "Social Media",
+      "icon": "social-media.svg"
+    },
+    "📦 Catalogs": {
+      "name": "Catalogs",
+      "icon": "catalogs.svg"
+    },
+    "📖 Miscellaneous": {
+      "name": "Miscellaneous",
+      "icon": "other.svg"
+    }
+  }
+}

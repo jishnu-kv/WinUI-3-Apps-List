@@ -1,0 +1,236 @@
+<Page
+    x:Class="WinUI_Cataloger.Views.HomePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WinUI_Cataloger.Views"
+    xmlns:models="using:WinUI_Cataloger.Models"
+    xmlns:labs="using:CommunityToolkit.WinUI.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="Transparent">
+
+    <Page.Resources>
+        <!-- Grouped CollectionViewSource — bound in code-behind -->
+        <CollectionViewSource x:Name="GroupedAppsSource" IsSourceGrouped="True" />
+    </Page.Resources>
+
+    <!-- Main Content Area -->
+    <Grid Padding="24,24,0,0" RowDefinitions="Auto,*">
+
+        <!-- Top bar: title + search + category button -->
+        <Grid Grid.Row="0" Margin="0,0,24,16" ColumnDefinitions="*,Auto" ColumnSpacing="16">
+            <StackPanel Grid.Column="0" Orientation="Horizontal" Spacing="12" VerticalAlignment="Center">
+                <TextBlock x:Name="HomePanelTitle" Text="WinUI Apps Catalog"
+                           Style="{ThemeResource TitleTextBlockStyle}" VerticalAlignment="Center"/>
+                <Border Background="{ThemeResource AccentFillColorDefaultBrush}" CornerRadius="10" Padding="8,2" VerticalAlignment="Center">
+                    <TextBlock x:Name="TotalAppsCountText" Text="0 apps" FontSize="11" FontWeight="SemiBold" Foreground="{ThemeResource TextOnAccentFillColorPrimaryBrush}" />
+                </Border>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="8" VerticalAlignment="Center">
+                <AutoSuggestBox x:Name="SearchBox" Width="300" PlaceholderText="Search apps..."
+                                QueryIcon="Find"
+                                QuerySubmitted="SearchBox_QuerySubmitted"
+                                TextChanged="SearchBox_TextChanged"
+                                VerticalAlignment="Center"/>
+                <Button x:Name="ChooseCategoryButton" ToolTipService.ToolTip="Choose Category" VerticalAlignment="Center">
+                    <FontIcon Glyph="&#xE81E;"/>
+                    <Button.Flyout>
+                        <Flyout x:Name="CategoryFlyout">
+                            <TreeView x:Name="CategoryTreeView" Width="360" Height="600"
+                                      ItemInvoked="CategoryTreeView_ItemInvoked">
+                                <TreeView.ItemTemplate>
+                                    <DataTemplate x:DataType="models:CategoryNode">
+                                        <TreeViewItem ItemsSource="{x:Bind Children}"
+                                                      AutomationProperties.Name="{x:Bind Name}">
+                                            <TreeViewItem.Content>
+                                                <StackPanel Orientation="Horizontal" Spacing="8" VerticalAlignment="Center">
+                                                    <Image Width="16" Height="16" VerticalAlignment="Center"
+                                                           Visibility="{x:Bind IconVisibility}">
+                                                        <Image.Source>
+                                                            <SvgImageSource UriSource="{x:Bind IconUri}"
+                                                                            RasterizePixelWidth="16" RasterizePixelHeight="16"/>
+                                                        </Image.Source>
+                                                    </Image>
+                                                    <TextBlock Text="{x:Bind Name}" VerticalAlignment="Center"/>
+                                                </StackPanel>
+                                            </TreeViewItem.Content>
+                                        </TreeViewItem>
+                                    </DataTemplate>
+                                </TreeView.ItemTemplate>
+                            </TreeView>
+                        </Flyout>
+                    </Button.Flyout>
+                </Button>
+            </StackPanel>
+        </Grid>
+
+        <!-- Loading ring shown while async data loads -->
+        <ProgressRing x:Name="LoadingRing" Grid.Row="1" IsActive="True"
+                      Width="48" Height="48"
+                      HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <!-- Virtualized grouped GridView -->
+        <GridView x:Name="AppsGridView"
+                  Grid.Row="1"
+                  Padding="0,0,10,0"
+                  SelectionMode="None"
+                  IsItemClickEnabled="False"
+                  ItemsSource="{Binding Source={StaticResource GroupedAppsSource}}"
+                  SizeChanged="AppsGridView_SizeChanged"
+                  Visibility="Collapsed">
+
+            <GridView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <ItemsWrapGrid AreStickyGroupHeadersEnabled="False" Orientation="Horizontal" />
+                </ItemsPanelTemplate>
+            </GridView.ItemsPanel>
+
+            <!-- ── Item template: Custom vertical tile card per app ── -->
+            <GridView.ItemTemplate>
+                <DataTemplate x:DataType="models:FlatAppItem">
+                    <!-- Vertical Card with Corner Radius 6 -->
+                    <Border CornerRadius="6"
+                            BorderBrush="{ThemeResource CardStrokeColorDefaultSolidBrush}"
+                            BorderThickness="1"
+                            Margin="6"
+                            HorizontalAlignment="Stretch"
+                            VerticalAlignment="Stretch"
+                            Tapped="AppCard_Tapped"
+                            PointerEntered="Card_PointerEntered"
+                            PointerExited="Card_PointerExited">
+                        <Border.RenderTransform>
+                            <TranslateTransform Y="0"/>
+                        </Border.RenderTransform>
+                        <Grid RowDefinitions="*,Auto" Background="{ThemeResource CardBackgroundFillColorDefaultBrush}">
+                            <!-- Top: Logo Container (Swaps between Image and Letter Fallback) -->
+                            <Grid Grid.Row="0" Height="120" Background="Transparent" Padding="12">
+                                <!-- Image Logo -->
+                                <Image Width="48" Height="48" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                       Source="{x:Bind DisplayLogoUrl}" Stretch="Uniform"
+                                       Visibility="{x:Bind HasLogoVisibility}"/>
+                                <!-- Letter Fallback Rounded Rectangle -->
+                                <Border Width="48" Height="48" CornerRadius="8"
+                                        Background="{x:Bind FallbackBackgroundBrush}"
+                                        HorizontalAlignment="Center" VerticalAlignment="Center"
+                                        Visibility="{x:Bind FallbackVisibility}">
+                                    <TextBlock Text="{x:Bind FirstLetter}"
+                                               Style="{ThemeResource SubtitleTextBlockStyle}"
+                                               FontWeight="SemiBold"
+                                               Foreground="White"
+                                               HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </Grid>
+                            
+                            <!-- Bottom: Details Container with Darker Background -->
+                            <Border Grid.Row="1" 
+                                    Background="{ThemeResource SolidBackgroundFillColorBaseBrush}" 
+                                    BorderBrush="{ThemeResource CardStrokeColorDefaultSolidBrush}"
+                                    BorderThickness="0,1,0,0"
+                                    Padding="8,8,8,8">
+                                <Grid RowDefinitions="Auto,Auto,Auto" RowSpacing="8">
+                                    <!-- App Name (Left-Aligned) -->
+                                    <TextBlock Grid.Row="0" Text="{x:Bind Name}"
+                                               Style="{ThemeResource BodyStrongTextBlockStyle}"
+                                               HorizontalAlignment="Left"
+                                               MaxLines="1" TextTrimming="CharacterEllipsis"/>
+                                    
+                                    <!-- App URL / Description (Left-Aligned) -->
+                                    <TextBlock Grid.Row="1" Text="{x:Bind Url}"
+                                               Style="{ThemeResource CaptionTextBlockStyle}"
+                                               Foreground="{ThemeResource TextFillColorSecondaryBrush}"
+                                               HorizontalAlignment="Left"
+                                               MaxLines="1" TextTrimming="CharacterEllipsis"/>
+
+                                    <!-- Indicator & Payment Badges (Left-Aligned) -->
+                                    <StackPanel Grid.Row="2" Orientation="Horizontal" Spacing="6" HorizontalAlignment="Left" Margin="0,2,0,0">
+                                        <TextBlock Text="{x:Bind Indicator}"
+                                                   Style="{ThemeResource CaptionTextBlockStyle}"
+                                                   Foreground="{ThemeResource TextFillColorSecondaryBrush}"
+                                                   VerticalAlignment="Center"/>
+                                        <Border CornerRadius="8" Height="16" Padding="8,0"
+                                                Background="{x:Bind PaymentBadgeBackground}"
+                                                VerticalAlignment="Center">
+                                            <TextBlock Text="{x:Bind PaymentBadgeText}"
+                                                       Foreground="{x:Bind PaymentBadgeForeground}"
+                                                       FontSize="9" FontWeight="SemiBold"
+                                                       VerticalAlignment="Center"/>
+                                        </Border>
+                                    </StackPanel>
+                                </Grid>
+                            </Border>
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+
+            <!-- ── Group header: category name + SVG icon ── -->
+            <GridView.GroupStyle>
+                <GroupStyle>
+                    <!-- Remove the default underline border on the group header container -->
+                    <GroupStyle.HeaderContainerStyle>
+                        <Style TargetType="GridViewHeaderItem">
+                            <Setter Property="Padding" Value="0"/>
+                            <Setter Property="MinHeight" Value="0"/>
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="GridViewHeaderItem">
+                                        <ContentPresenter
+                                            Content="{TemplateBinding Content}"
+                                            ContentTemplate="{TemplateBinding ContentTemplate}"
+                                            HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                            VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </GroupStyle.HeaderContainerStyle>
+                    <GroupStyle.HeaderTemplate>
+                        <DataTemplate x:DataType="models:AppGroup">
+                            <StackPanel Orientation="Horizontal" Spacing="10"
+                                        Margin="0,16,0,6" VerticalAlignment="Center">
+                                <Image Width="22" Height="22" VerticalAlignment="Center"
+                                       Visibility="{x:Bind IconVisibility}">
+                                    <Image.Source>
+                                        <SvgImageSource UriSource="{x:Bind IconUri}"
+                                                        RasterizePixelWidth="22" RasterizePixelHeight="22"/>
+                                    </Image.Source>
+                                </Image>
+                                <TextBlock Text="{x:Bind DisplayName}"
+                                           Style="{ThemeResource SubtitleTextBlockStyle}"
+                                           FontWeight="SemiBold" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </GroupStyle.HeaderTemplate>
+                </GroupStyle>
+            </GridView.GroupStyle>
+
+            <!-- Remove default GridViewItem chrome / selection visuals -->
+            <GridView.ItemContainerStyle>
+                <Style TargetType="GridViewItem" BasedOn="{StaticResource DefaultGridViewItemStyle}">
+                    <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                    <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                    <Setter Property="Padding" Value="0"/>
+                    <Setter Property="Margin" Value="0"/>
+                </Style>
+            </GridView.ItemContainerStyle>
+        </GridView>
+
+        <!-- Empty state -->
+        <StackPanel x:Name="EmptyStatePanel" Grid.Row="1"
+                    Visibility="Collapsed"
+                    HorizontalAlignment="Center" VerticalAlignment="Center"
+                    Spacing="16" Margin="0,48,0,0">
+            <FontIcon Glyph="&#xE721;" FontSize="48"
+                      Foreground="{ThemeResource TextFillColorSecondaryBrush}"/>
+            <TextBlock Text="No apps found"
+                       Style="{ThemeResource SubtitleTextBlockStyle}"
+                       HorizontalAlignment="Center"/>
+            <TextBlock Text="Try searching for a different name, category, or keyword."
+                       Style="{ThemeResource BodyTextBlockStyle}"
+                       Foreground="{ThemeResource TextFillColorSecondaryBrush}"
+                       HorizontalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Page>

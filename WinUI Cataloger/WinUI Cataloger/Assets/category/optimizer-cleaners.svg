@@ -1,0 +1,17 @@
+<svg width="76" height="76" viewBox="10 5 60 60" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <linearGradient id="toolGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4DA3FF"/>
+      <stop offset="100%" stop-color="#1BC8D9"/>
+    </linearGradient>
+  </defs>
+<!--Group for proper centering-->
+  <g transform="translate(4 2)" fill="url(#toolGrad)">
+<!--Fixed base line (the original had broken path syntax)-->
+    <path d="M0 51.9 L56 47.15 Z"/>
+<!--Middle shape-->
+    <path d="M45.535 48.282c-2.585.36-5.75-.25-9.032-1.129-5.524-1.48-9.814-4.427-11.195-7.358l6.774-6.774 13.453 5.045z"/>
+<!--Upper shape-->
+    <path d="M39.082 28.172q.518 0 1.015.065l5.7-11.187 3.066 1.562-5.527 10.847c1.601 1.103 2.63 2.814 2.63 4.736 0 .825-.19 1.611-.533 2.327l-12.226-4.746c1.065-2.122 3.057-3.604 5.876-3.604z"/>
+  </g>
+</svg>

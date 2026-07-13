@@ -1,0 +1,17 @@
+<svg width="800" height="800" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<title>Streaming</title>
+<defs>
+  <linearGradient id="streamGradient" x1="20" y1="20" x2="4" y2="4" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#2764E7"/>
+    <stop offset="1" stop-color="#36DFF1"/>
+  </linearGradient>
+</defs>
+
+<g fill="none" fill-rule="evenodd" stroke="url(#streamGradient)" stroke-width="2" stroke-linecap="round">
+  <path d="M8.464 15.535a5 5 0 0 1 0-7.07"/>
+  <path d="M5.636 18.364a9 9 0 0 1 0-12.728"/>
+  <path d="M15.536 8.464a5 5 0 0 1 0 7.071"/>
+  <path d="M18.364 5.536a9 9 0 0 1 0 12.728"/>
+  <circle cx="12" cy="12" r="1"/>
+</g>
+</svg>
