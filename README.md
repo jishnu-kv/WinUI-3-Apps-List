@@ -234,7 +234,7 @@ Please ensure your app fits the WinUI 3 category and provide a brief description
 
 ## 🆕 Newly Added Apps!
 
-Last 230 apps that were recently added to list!
+Last 231 apps that were recently added to list!
 
 - `WD` [AiLogAnalyzer](https://github.com/smartzan63/AiLogAnalyzer) <sup>`FOSS`</sup>
 - `WD` [Anemos](https://github.com/hockerschwan/Anemos) <sup>`FOSS`</sup>
@@ -284,6 +284,7 @@ Last 230 apps that were recently added to list!
 - `WD` [Dream Translate PO](https://github.com/TypeDreamMoon/DreamTranslatePO) <sup>`FOSS`</sup>
 - `WD` [Dream Unreal Manager](https://github.com/TypeDreamMoon/DreamUnrealManager) <sup>`FOSS`</sup>
 - `WD` [Dusk Control](https://github.com/stabldev/dusk-control) <sup>`FOSS`</sup>
+- `WD` [earmark](https://github.com/williamckha/earmark) `📅 Planned` <sup>`FOSS`</sup>
 - `WDM` [EasyTidy](https://github.com/EasyTidy/EasyTidy) <sup>`FOSS`</sup>
 - `WD` [EM Hasher](https://github.com/enda-mullally/EMHasher) <sup>`FOSS`</sup>
 - `WDM` [English-Listen-WinUI](https://apps.microsoft.com/detail/9plk90cntjbg)
@@ -704,6 +705,7 @@ Last 230 apps that were recently added to list!
 ## 💵 Finance
 
 - `WDM` [BitWallpaper](https://github.com/torum/BitWallpaper) <sup>`FOSS`</sup>
+- `WD` [earmark](https://github.com/williamckha/earmark) `📅 Planned` <sup>`FOSS`</sup>
 - `WD` [MyMoney](https://github.com/jm6271/MyMoney) <sup>`FOSS`</sup>
 
 ## 🎮 Games
