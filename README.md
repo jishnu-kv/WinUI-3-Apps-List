@@ -1,6 +1,6 @@
 <h1 align="center">WinUI Apps List</h1>
 
-The following is a curated list of applications designed in alignment with the Windows 11 design language, whether built with WinUI 3, UWP, WPF, or related frameworks.
+The largest curated directory of beautiful Windows apps built with WinUI, UWP, WPF and Fluent Design.
 
 <p align="center">
   <img src="./winui3.webp">
@@ -207,14 +207,18 @@ This list is solely a compilation of apps that adopt the WinUI 3 Design guidelin
 
 ### <img src="https://github.com/jishnu-kv/WinUI-3-Apps-List/assets/108184606/deb658e0-14f1-4bbb-8f43-0b147e9806e9" width="25" height="25" /> Contributing to the WinUI Apps List
 
-Thank you for being so interested in contributing to the WinUI Apps List! Here's how you can add your app:
+Thank you for being interested in contributing to the WinUI Apps List! You can add your app in one of two ways:
 
+#### Option 1: Submit an Issue (Easiest)
+Suggest an app by filling out our [**New App Issue Template**](https://github.com/jishnu-kv/WinUI-3-Apps-List/issues/new?template=add_app.yml).
+
+#### Option 2: Submit a Pull Request
 1. Fork this repository.
-2. Add your app to the appropriate section in the README.md file, following the existing format and alphabetical order.
-3. Create a pull request to suggest your changes.
-4. I will review your submission and merge it if it meets our criteria.
+2. Add your app to the appropriate section in the `README.md` file, following the existing format and alphabetical order.
+3. Add your app to the [Newly Added Apps](#-newly-added-apps) section at the top.
+4. Create a pull request to submit your changes.
 
-Please ensure your app fits the WinUI 3 category and provide a brief description and link. Don't forget to add your apps to the [Newly Added Apps](#-newly-added-apps) section.
+Please ensure your app fits the WinUI 3 / Fluent Design guidelines and provide a direct link. For full guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Green%20Heart.png" alt="Green Heart" width="25" height="25"/> Best Implementation of WinUI
 

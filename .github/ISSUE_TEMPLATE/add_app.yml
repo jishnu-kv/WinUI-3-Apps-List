@@ -1,0 +1,134 @@
+name: "📱 Suggest a New App"
+description: "Submit a new WinUI or Fluent Design application to be added to the directory."
+title: "[App]: <App Name>"
+labels: ["add-app", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to suggest an app for the **WinUI Apps List**!
+        Please fill out this form so your app can be reviewed, formatted, and added to the list and synced with [Fluentdeck](https://fluentdeck.vercel.app/apps).
+
+  - type: input
+    id: app_name
+    attributes:
+      label: App Name
+      description: The official name of the application.
+      placeholder: e.g., Ambie
+    validations:
+      required: true
+
+  - type: input
+    id: app_url
+    attributes:
+      label: App URL / Repository / Store Link
+      description: Direct link to the app (GitHub/GitLab repository, Microsoft Store page, or official website).
+      placeholder: e.g., https://github.com/jenius-apps/ambie or https://apps.microsoft.com/...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: indicator
+    attributes:
+      label: Design Implementation Indicator
+      description: |
+        Select the visual design style used by the app:
+        - **WDM**: Apps that have both WinUI 3 design and Mica Material.
+        - **WDA**: Apps that have both WinUI 3 design and Acrylic Material.
+        - **WD**: Apps that follow WinUI 3 Design Only.
+      options:
+        - "WDM (WinUI 3 Design + Mica Material)"
+        - "WDA (WinUI 3 Design + Acrylic Material)"
+        - "WD (WinUI 3 Design Only)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Primary Category
+      description: Select the main category in the README where this app fits best.
+      options:
+        - "🛍️ Application Store"
+        - "🤖 Artificial Intelligence (AI)"
+        - "📕 Books & Reference"
+        - "💼 Business"
+        - "🌐 Browser"
+        - "📦 Catalogs"
+        - "🧑‍💻 Developer Tools"
+        - "⬇️ Download Managers"
+        - "🎓 Education"
+        - "📧 Email"
+        - "📱 Entertainment"
+        - "📁 File Manager"
+        - "💵 Finance"
+        - "🎮 Games"
+        - "🙎‍♂️ Lifestyle"
+        - "🎬 Media"
+        - "💠 Multimedia & Design"
+        - "📰 News"
+        - "📒 Notes / To-do / Wish-lists"
+        - "🎨 Personalization"
+        - "📈 Productivity"
+        - "🔒 Security & Privacy"
+        - "👨‍💻 Social Media"
+        - "💻 System"
+        - "🈵 Translators"
+        - "🈵 Transcribe"
+        - "🔧 Utilities"
+        - "🌤️ Weather"
+        - "🪟 Windows Apps"
+        - "📖 Miscellaneous"
+    validations:
+      required: true
+
+  - type: input
+    id: subcategory
+    attributes:
+      label: Subcategory (if applicable)
+      description: If the category has subcategories (e.g., Media > Music > Players, Games > Game Tools, System > Calculators), specify it here.
+      placeholder: e.g., Music > Players, Torrenting, PDF Viewer, etc.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: attributes
+    attributes:
+      label: Attributes & Badges
+      description: Check all tags that apply to this application.
+      options:
+        - label: Free and Open Source Software (`FOSS`)
+        - label: Paid App (`💰`)
+        - label: Theme / Styling Mod (`🎨`)
+        - label: Planned / In Development (`📆 Planned`)
+        - label: Discontinued (`❎ Discontinued`)
+
+  - type: input
+    id: logo_url
+    attributes:
+      label: Direct Logo URL (Optional)
+      description: Direct link to a raw icon/logo image (PNG, WebP, SVG) used for rendering on Fluentdeck.
+      placeholder: e.g., https://raw.githubusercontent.com/.../logo.png
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description & Visual Evidence
+      description: Provide a brief summary of what the app does and attach screenshots or mention how it implements WinUI 3 / Fluent Design (e.g. Mica, Acrylic, native controls).
+      placeholder: "Brief description of the app, screenshots, or any notes..."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have searched the README and confirmed this app is not already listed.
+          required: true
+        - label: I confirm this app follows WinUI / Fluent Design guidelines.
+          required: true
+        - label: The link provided is active and working.
+          required: true

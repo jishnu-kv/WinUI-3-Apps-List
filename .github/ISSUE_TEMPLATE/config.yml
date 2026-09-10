@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Discord Discussion
+    url: https://discord.com/channels/714581497222398064/1127236520366047322
+    about: Join the WinUI 3 Apps Showcase Discord discussion
+  - name: Browse Directory on Fluentdeck
+    url: https://fluentdeck.vercel.app/apps
+    about: Browse and search the interactive WinUI Apps Directory

@@ -6,11 +6,20 @@ To ensure consistency and ease of parsing (including rendering on the [Fluentdec
 
 ---
 
-## 🛠️ Step-by-Step Guide
+## 🛠️ How to Contribute
 
+You can add an app to the directory using either of the methods below:
+
+### Option 1: Submit an Issue (Recommended for Quick Suggestions)
+If you don't want to edit files directly, you can submit an app recommendation via GitHub Issues:
+1. Open the [**New App Issue Form**](https://github.com/jishnu-kv/WinUI-3-Apps-List/issues/new?template=add_app.yml).
+2. Fill in the required fields (App Name, URL, Design Indicator, Category, Badges, and Logo).
+3. Submit the issue — we will review and merge it into `README.md` and `apps_data.json`!
+
+### Option 2: Submit a Pull Request
 1. **Fork the Repository**: Create a fork of this repository to your own GitHub account.
 2. **Add Your App**: Place your app in the appropriate section(s) within [README.md](README.md) following the strict alphabetical sorting and format guidelines below.
-3. **Add to Newly Added Apps**: Make sure to also add your new entry to the `### 🆕 Newly Added Apps!` section at the top of the README, keeping it sorted alphabetically.
+3. **Add to Newly Added Apps**: Make sure to also add your new entry to the `## 🆕 Newly Added Apps!` section at the top of the README, keeping it sorted alphabetically.
 4. **Submit a Pull Request**: Push your changes to your fork and open a pull request back to this repository.
 
 ---
