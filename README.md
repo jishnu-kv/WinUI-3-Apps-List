@@ -236,6 +236,7 @@ Please ensure your app fits the WinUI 3 category and provide a brief description
 
 Last 20 apps that were recently added to list!
 
+- `WDM` [IconFlow](https://github.com/mishzx/IconFlow) <sup>`FOSS`</sup>
 - `WD` [D3D12LookDevPTWinUI](https://github.com/shaderjp/D3D12LookDevPTWinUI3) `📆 Planned` <sup>`FOSS`</sup>
 - `WDM` [Fluent Metronome](https://apps.microsoft.com/detail/9pnnnts5jmtp)
 - `WDM` [FontWizard](https://github.com/karnyadavdev/FontWizard) <sup>`FOSS`</sup>
@@ -255,7 +256,6 @@ Last 20 apps that were recently added to list!
 - `WDA` [Weather - WidBar Widget](https://apps.microsoft.com/detail/9n4cs86q7nv2)
 - `WD` [Web Dive](https://apps.microsoft.com/detail/9n110tcfkblt)
 - `WDM` [WidBar - Widget Taskbar system](https://apps.microsoft.com/detail/9pkldnm83tp9)
-- `WDM` [WinGlide](https://github.com/congchuahiep/WinGlide) <sup>`FOSS`</sup>
 
 <sub>[📑 Table Of Contents](#-table-of-contents)</sub>
 
@@ -813,6 +813,7 @@ Last 20 apps that were recently added to list!
 - `WD` [Folder Icon Painter](https://github.com/FolderPainter/FolderIconPainter) <sup>`FOSS`</sup>
 - `WDM` [FontWizard](https://github.com/karnyadavdev/FontWizard) <sup>`FOSS`</sup>
 - `WDM` [GyroShell](https://github.com/Pdawg-bytes/GyroShell) <sup>`FOSS`</sup>
+- `WDM` [IconFlow](https://github.com/mishzx/IconFlow) <sup>`FOSS`</sup>
 - `WD` [LegendBar](https://github.com/Baldev8910/LegendBar) <sup>`FOSS`</sup>
 - `WDM` [Lively Wallpaper](https://apps.microsoft.com/store/detail/lively-wallpaper/9NTM2QC6QWS7)
 - `WDM` [Magpie](https://github.com/Blinue/Magpie) <sup>`FOSS`</sup>
