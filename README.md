@@ -317,7 +317,7 @@ Last 1 app that were recently added to list!
 
 ## 🌐 Browser
 
-- `WDM` `WDA` [Arc Browser](https://arc.net/)
+- `WDM` `WDA` [Arc Browser](https://arc.net/) `❎`
 - `WDM` [Aurora](https://apps.microsoft.com/detail/9mxzldlctfwl)
 - `WD` `WDM` `WDA` [Dia for Windows 11](https://www.diabrowser.com/windows)
 - `WDM` [Firefox-WinUI](https://github.com/Lockframe/Firefox-WinUI) `🎨` <sup>`FOSS`</sup>
