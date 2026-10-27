@@ -234,29 +234,9 @@ Please ensure your app fits the WinUI 3 category and provide a brief description
 
 ## 🆕 Newly Added Apps!
 
-Last 20 apps that were recently added to list!
+Last 1 app that were recently added to list!
 
-- `WDM` [Hatch: Always-On To-Do](https://github.com/fbtwitter/hatch) <sup>`FOSS`</sup>
-- `WDM` [Kinema](https://github.com/kinema-app/kinema)
-- `WDM` [IconFlow](https://github.com/mishzx/IconFlow) <sup>`FOSS`</sup>
-- `WD` [D3D12LookDevPTWinUI](https://github.com/shaderjp/D3D12LookDevPTWinUI3) `📆 Planned` <sup>`FOSS`</sup>
-- `WDM` [Fluent Metronome](https://apps.microsoft.com/detail/9pnnnts5jmtp)
-- `WDM` [FontWizard](https://github.com/karnyadavdev/FontWizard) <sup>`FOSS`</sup>
-- `WDM` [Inky - PDF Reader](https://apps.microsoft.com/detail/9nblggh40fwd)
-- `WDA` [Linkscape](https://github.com/JohnDizzle/Linkscape) <sup>`FOSS`</sup>
-- `WDM` [MdPad](https://github.com/radueduard97/MdPad) <sup>`FOSS`</sup>
-- `WDA` [Media - WidBar Widget](https://apps.microsoft.com/detail/9nbvchs7jr0c)
-- `WD` [TidyPdf](https://apps.microsoft.com/detail/9P25MFF9VK1J)
-- `WDA` [Pomodoro Focus - WidBar Widget](https://apps.microsoft.com/detail/9nwrj4d65dhs)
-- `WDM` [Raven](https://github.com/mjishnu/Raven) <sup>`FOSS`</sup>
-- `WDA` [Shelf File Manager & Clipboard - Widbar Widget](https://apps.microsoft.com/detail/9p18qnl4tc4g)
-- `WD` [SmoothTube](https://apps.microsoft.com/detail/9p5gngw9n606)
-- `WDA` [Stock Watcher - WidBar Widget](https://apps.microsoft.com/detail/9mwk4x22ql4m)
-- `WDM` [Swift PDF - Reader & Editor & Converter](https://apps.microsoft.com/detail/9n94phwffvnh)
-- `WDA` [System Metrics - WidBar Widget](https://apps.microsoft.com/detail/9nm2bn1x33cq)
-- `WD` [Task Scheduler Studio](https://github.com/MarkHopper24/Task-Scheduler-Studio) <sup>`FOSS`</sup>
-- `WDA` [Weather - WidBar Widget](https://apps.microsoft.com/detail/9n4cs86q7nv2)
-- `WD` [Web Dive](https://apps.microsoft.com/detail/9n110tcfkblt)
+- `WD` `WDM` `WDA` [Dia for Windows 11](https://www.diabrowser.com/windows)
 
 <sub>[📑 Table Of Contents](#-table-of-contents)</sub>
 
@@ -337,8 +317,9 @@ Last 20 apps that were recently added to list!
 
 ## 🌐 Browser
 
-- `WDM` `WDA` [Arc Browser](https://arc.net/)
+- `WDM` `WDA` [Arc Browser](https://arc.net/) `❎`
 - `WDM` [Aurora](https://apps.microsoft.com/detail/9mxzldlctfwl)
+- `WD` `WDM` `WDA` [Dia for Windows 11](https://www.diabrowser.com/windows)
 - `WDM` [Firefox-WinUI](https://github.com/Lockframe/Firefox-WinUI) `🎨` <sup>`FOSS`</sup>
 - `WDM` `WDA` [Horizon](https://apps.microsoft.com/detail/9pfs0vxcd5sr) <sup>`FOSS`</sup>
 - `WDA` [Hurl](https://github.com/U-C-S/Hurl) <sup>`FOSS`</sup>
