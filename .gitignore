@@ -1,3 +1,104 @@
-# Ignore the cataloger utility app
-WinUI Cataloger/
-WinUI Cataloger.exe
+# ==========================================
+# Legacy / Cataloger Utility
+# ==========================================
+FluentDeck/
+FluentDeck
+
+# ==========================================
+# Build & Output Files (.NET / C# / WinUI)
+# ==========================================
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+AppX/
+BundleArtifacts/
+PackagePackages/
+publish/
+Generated Files/
+_ReSharper*/
+
+# Visual Studio & Windows App SDK user files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.pidb
+*.booproj
+*.svclog
+*.pubxml.user
+*.vcxproj.user
+
+# Visual Studio temporary files, caches & directories
+.vs/
+TestResults/
+*.vspscc
+*.vssscc
+
+# IDEs & Tool Directories
+.vscode/
+.idea/
+.agents/
+.winapp/
+*.swp
+*.*~
+
+# ==========================================
+# Python Files & Caches
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+ENV/
+env/
+
+# ==========================================
+# Security, Certificates & Sensitive Keys
+# ==========================================
+*.pfx
+*.cer
+*.key
+*.p12
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# ==========================================
+# Exceptions / Whitelist
+# ==========================================
+!.github/
+!.gitignore
+!.gitattributes
