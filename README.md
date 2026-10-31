@@ -324,6 +324,7 @@ Last 142 apps that were recently added to list!
 - `WDA` [OriginalSound HQ Player](https://apps.microsoft.com/detail/9nfw1rppt999) `💰`
 - `WDM` [PaqetFire](https://github.com/4H1R/paqetfire) <sup>`FOSS`</sup>
 - `WDM` [PDF Editor - Document Tools](https://apps.microsoft.com/detail/9nfxqp51wdfm)
+- `WDM` [Passify](https://github.com/AhmedDevEG/Passify) <sup>`FOSS`</sup> <!-- logo: https://github.com/user-attachments/assets/b8c403ef-90fd-47e8-ab0f-0925e00fe209 -->
 - `WDM` [PetDesk](https://github.com/uponatime2019/PetDesk) <sup>`FOSS`</sup>
 - `WD` [PingBoard](https://github.com/hkrob/PingBoard) <sup>`FOSS`</sup>
 - `WD` [ProcessKeeper](https://github.com/KangQiovo/ProcessKeeper) <sup>`FOSS`</sup>
@@ -368,6 +369,7 @@ Last 142 apps that were recently added to list!
 - `WD` [Verbinal](https://github.com/szautkin/CanfarDesktop) <sup>`FOSS`</sup>
 - `WD` [Vibesbox](https://github.com/sofianchitac/VibesboxKiosk) <sup>`FOSS`</sup>
 - `WDM` [Videohog](https://apps.microsoft.com/detail/9p2tkqpjnlbs)
+- `WDM` [Wally](https://github.com/AhmedDevEG/Wally) <!-- logo: https://github.com/user-attachments/assets/4ca20a45-2175-46d8-acab-df6d274d0d31 -->
 - `WD` [Visual Pad](https://apps.microsoft.com/detail/9p7xcxgqp92l)
 - `WDM` [Voice Recorder - AI Enhanced](https://apps.microsoft.com/detail/9phq05fmv017) `💰`
 - `WDM` [wallhaven](https://apps.microsoft.com/detail/9p0hc000twv5) `💰`
@@ -1128,6 +1130,7 @@ Last 142 apps that were recently added to list!
 - `WDM` [EasePass](https://github.com/FrozenAssassine/EasePass) <sup>`FOSS`</sup>
 - `WDM` [Honeypot](https://github.com/sh0ckj0ckey/Honeypot) <sup>`FOSS`</sup>
 - `WDM` [Orayo](https://github.com/barkure/Orayo) <sup>`FOSS`</sup> `❎`
+- `WDM` [Passify](https://github.com/AhmedDevEG/Passify) <sup>`FOSS`</sup> <!-- logo: https://github.com/user-attachments/assets/b8c403ef-90fd-47e8-ab0f-0925e00fe209 -->
 - `WM` [Pass11](https://github.com/LawOff/Pass11) <sup>`FOSS`</sup>
 - `WD` [PassGenie - Secure Password Manager](https://apps.microsoft.com/detail/9n60m35bjqx9) `💰`
 - `WD` [PassMaker - Advanced Password Generator](https://apps.microsoft.com/detail/9mtnmklt725l)
